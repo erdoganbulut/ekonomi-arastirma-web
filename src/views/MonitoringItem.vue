@@ -1,6 +1,6 @@
 <template>
   <main>
-    Ana Sayfa
+    Türkiye Monitörü Item
   </main>
 </template>
 
@@ -8,5 +8,5 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({})
-export default class Home extends Vue {}
+export default class MonitoringItem extends Vue {}
 </script>
