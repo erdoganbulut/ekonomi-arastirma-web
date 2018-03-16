@@ -1,12 +1,18 @@
 <template>
   <main>
     Ana Sayfa
+    <Slider />
   </main>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import Slider from '@/components/Slider.vue'
 
-@Component({})
+@Component({
+  components: {
+    Slider,
+  },
+})
 export default class Home extends Vue {}
 </script>
