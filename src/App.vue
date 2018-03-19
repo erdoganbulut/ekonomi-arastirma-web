@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Navigation />
-    <router-view/>
+    <router-view />
+    <Footerbar />
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Navigation from '@/components/Navigation.vue'
+import Navigation from '@/components/Navigation.vue';
+import Footerbar from '@/components/Footerbar.vue';
 
 @Component({
   components: {
     Navigation,
+    Footerbar,
   },
 })
 export default class App extends Vue {}
