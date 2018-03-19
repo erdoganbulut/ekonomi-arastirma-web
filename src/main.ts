@@ -8,8 +8,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import Icons from './components/Icons.vue'
 
 Vue.use(BootstrapVue);
+
+Vue.component('icon', Icons);
 
 Vue.config.productionTip = false;
 
