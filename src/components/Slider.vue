@@ -1,5 +1,5 @@
 <template>
-  <section class="slider">
+  <section class="slider-component">
     Slider Component
   </section>
 </template>
