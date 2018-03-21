@@ -1,0 +1,28 @@
+{
+  "sliders": [
+    {
+      "id": 0,
+      "image": "http://placehold.it/1920x1080",
+      "title": "İstanbul Ekonomi Araştırma Genel Müdürü Can Selçuki,<br>Son Seçmen Eğilimlerini Değerlendirdi.",
+      "url": "111"
+    },
+    {
+      "id": 1,
+      "image": "http://placehold.it/1920x720",
+      "title": "İstanbul Ekonomi Araştırma Ekim 2017 Siyasi Gündem<br>Araştırma Raporu Yayınlandı.",
+      "url": "222"
+    },
+    {
+      "id": 2,
+      "image": "http://placehold.it/1920x960",
+      "title": "“Osmanlı Dizisi İzliyor, Facebook’a Bağlanıyoruz.”<br>Can Selçuki Analizleriyle 2017 Yılını Vatan Gazetesi<br>İçin Değerlendirdi.",
+      "url": "333"
+    },
+    {
+      "id": 3,
+      "image": "http://placehold.it/1920x1440",
+      "title": "Türkiye’de Futbol Kalitesi Anketi Sonuçları 20 Ekim Akşamı<br>Habertürk TV #NedirNeDeğildir Programında Yayınlandı.",
+      "url": "444"
+    }
+  ]
+}
