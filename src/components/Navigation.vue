@@ -36,7 +36,7 @@
       </nav>
       <div class="header--col header--trigger-mobile">
         <a href="javascript:;" v-on:click="handleTriggerNav()">
-          <icon slot="icon-hamburger" />
+          <icon name="icon-hamburger" />
         </a>
       </div>
     </div>
