@@ -1,0 +1,13 @@
+{
+  "banner": {
+    "image": "http://placehold.it/1920x720",
+    "title": "Lorem Ipsum"
+  },
+  "content": {
+    "id": 123,
+    "title": "Şubat 2018",
+    "relase": "20.02.2018",
+    "slogan": "LOREM IPSUM DOLOR SIT AMET",
+    "content": "<p>asasaaa</p>"
+  }
+}

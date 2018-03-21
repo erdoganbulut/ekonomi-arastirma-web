@@ -1,0 +1,21 @@
+{
+  "banner": {
+    "image": "http://placehold.it/1920x720",
+    "title": "Lorem Ipsum",
+    "description": "Dolor sit amet."
+  },
+  "references": [
+    {
+      "image": "http://placehold.it/256x256"
+    },
+    {
+      "image": "http://placehold.it/256x256"
+    },
+    {
+      "image": "http://placehold.it/256x256"
+    },
+    {
+      "image": "http://placehold.it/256x256"
+    }
+  ]
+}

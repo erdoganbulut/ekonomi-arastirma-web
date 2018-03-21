@@ -1,0 +1,29 @@
+{
+  "banner": {
+    "image": "http://placehold.it/1920x720",
+    "title": "Lorem Ipsum",
+    "description": "Dolor sit amet."
+  },
+  "services": [
+    {
+      "image": "http://placehold.it/256x256",
+      "title": "Service Item Title",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "image": "http://placehold.it/256x256",
+      "title": "Service Item Title",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "image": "http://placehold.it/256x256",
+      "title": "Service Item Title",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "image": "http://placehold.it/256x256",
+      "title": "Service Item Title",
+      "description": "Lorem ipsum dolor sit amet"
+    }
+  ]
+}

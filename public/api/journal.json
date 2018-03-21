@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "image": "http://placehold.it/1920x720",
+    "title": "Lorem Ipsum"
+  },
+  "journal": [
+    {
+      "id": 123,
+      "title": "Şubat 2018",
+      "relase": "20.02.2018"
+    },
+    {
+      "id": 124,
+      "title": "Şubat 2018",
+      "relase": "20.02.2018"
+    },
+    {
+      "id": 125,
+      "title": "Şubat 2018",
+      "relase": "20.02.2018"
+    },
+    {
+      "id": 126,
+      "title": "Şubat 2018",
+      "relase": "20.02.2018"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "banner": {
+    "image": "http://placehold.it/1920x720",
+    "title": "Lorem Ipsum",
+    "description": "Dolor sit amet."
+  },
+  "directors": [
+    {
+      "image": "http://placehold.it/256x256",
+      "name": "JOHN DOE",
+      "title": "Developer",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "image": "http://placehold.it/256x256",
+      "name": "JOHN DOE",
+      "title": "Developer",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "image": "http://placehold.it/256x256",
+      "name": "JOHN DOE",
+      "title": "Developer",
+      "description": "Lorem ipsum dolor sit amet"
+    }
+  ]
+}
