@@ -8,24 +8,25 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { mapActions } from 'vuex';
 import Banner from '@/components/Banner.vue';
 import Service from '@/components/Service.vue';
 
 @Component({
-  methods: {
-    ...mapActions({
-      setFooterVisibility: 'footer/setFooterVisibility',
-    }),
-  },
   components: {
     Banner,
     Service,
   },
 })
 export default class Services extends Vue {
+  
+
+  setFooterVisibility(value: boolean) {
+    this.$store.dispatch('footer/setFooterVisibility', value);
+  }
+
   mounted() {
     this.setFooterVisibility(true);
-  };
+  }
+  
 };
 </script>

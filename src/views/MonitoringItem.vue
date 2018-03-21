@@ -11,7 +11,6 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { mapActions } from 'vuex';
 import Banner from '@/components/Banner.vue';
 import Slogan from '@/components/Slogan.vue';
 import Content from '@/components/Content.vue';
@@ -19,11 +18,6 @@ import BoxMonitoring from '@/components/BoxMonitoring.vue';
 import BoxTweet from '@/components/BoxTweet.vue';
 
 @Component({
-  methods: {
-    ...mapActions({
-      setFooterVisibility: 'footer/setFooterVisibility',
-    }),
-  },
   components: {
     Banner,
     Slogan,
@@ -33,8 +27,15 @@ import BoxTweet from '@/components/BoxTweet.vue';
   },
 })
 export default class MonitoringItem extends Vue {
+  
+
+  setFooterVisibility(value: boolean) {
+    this.$store.dispatch('footer/setFooterVisibility', value);
+  }
+
   mounted() {
     this.setFooterVisibility(true);
-  };
+  }
+
 };
 </script>
