@@ -1,11 +1,12 @@
 <template>
   <main>
-    <Slider />
+    <Slider :content="homeData" />
   </main>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { mapGetters } from 'vuex';
 import Slider from '@/components/Slider.vue';
 
 @Component({
@@ -14,19 +15,22 @@ import Slider from '@/components/Slider.vue';
   },
 })
 export default class Home extends Vue {
-  
 
   setFooterVisibility(value: boolean) {
     this.$store.dispatch('footer/setFooterVisibility', value);
   }
 
-  getSliders() {
-    this.$store.dispatch('home/getSliders');
+  getHomeData() {
+    this.$store.dispatch('home/getHomeData');
   }
 
   mounted() {
     this.setFooterVisibility(false);
-    this.getSliders();
+    this.getHomeData();
+  }
+
+  get homeData() {
+    return this.$store.getters['home/homeData']
   }
 
 };

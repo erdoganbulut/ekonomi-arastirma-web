@@ -1,28 +1,28 @@
 import Vue from 'vue';
 
 const getters = {
-  sliders: (state: any) => state.sliders,
+  homeData: (state: any) => state.homeData,
 };
 
 const actions = {
-  getSliders ({ commit } : { commit: any }) {
-    Vue.http.get('http://localhost:8081/api/home.json').then((response: any) => {
-      commit('setSliders', response.body.sliders);
+  getHomeData ({ commit } : { commit: any }) {
+    Vue.http.get('/api/home.json').then((response: any) => {
+      commit('setHomeData', response.body);
     }, (response: any) => {
-      commit('setSliders', []);
+      commit('setHomeData', []);
     });
     
   },
 };
 
 const mutations = {
-  setSliders (state: any, slidersData: object) {
-    state.sliders = slidersData;
+  setHomeData (state: any, homeData: any) {
+    state.homeData = homeData;
   },
 };
 
 const state = {
-  sliders: [],
+  homeData: {},
 };
 
 export default {
